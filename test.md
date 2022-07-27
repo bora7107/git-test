@@ -54,4 +54,4 @@
     ```
 
 13. merge와 rebase의 차이점은 무엇일까요? 
-     - 답 : 
+     - 답 : merge는 branch를 통합하는 것이고, rebase는 branch의 base를 옮기는 것
