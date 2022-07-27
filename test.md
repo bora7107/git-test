@@ -62,4 +62,4 @@ fork를 통해 내 원격 저장소로 복제한다.
     ```
 
 13. merge와 rebase의 차이점은 무엇일까요? 
-     - 답 : 
+     - 답 : merge : branch를 통합/ rebase : base를 옮기는 것
