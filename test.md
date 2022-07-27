@@ -45,11 +45,12 @@
     - 이유 : branch를 생성하여 작업을 진행하였기에 'git push origin branch명'으로 변경사항 반영해야한다.
  
 11. git reset 명령어의 옵션 중, staging area 상태로 돌아가는 옵션은 ______이다.
-    - 답 : 
+    - 답 : --soft
 
 12. 바로 직전 커밋을 수정하기 위해서 필요한 명령어를 작성하세요.
     - 답
     ```
+        git commit --amend
     ```
 
 13. merge와 rebase의 차이점은 무엇일까요? 
