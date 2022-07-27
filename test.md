@@ -11,14 +11,20 @@
 3. 변경사항을 기록하는 과정을 아래 코드 블록에 작성해 주세요.
    - 답
    ```bash
+   
+   git add .
+   git commit -m ""
   
    ```
 
 4. 아래와 같은 메시지가 발생했을 때, 무엇을 해야 할까요?
 ![image](https://user-images.githubusercontent.com/98133984/181182281-4d01a374-62fe-4957-9a07-1efc005e35d3.png)
    - 답
-   ```
+   ```bash
 
+   git config --global user.name "이름"
+   git config --global user.email "메일 주소"
+   
    ```
 5. clone과 pull의 차이는 무엇인가요?
    - 답 :
