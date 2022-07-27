@@ -22,6 +22,7 @@
         git config --global user.name '이름'
         git config --global user.email '이메일'
    ```
+
 5. clone과 pull의 차이는 무엇인가요?
    - 답 : remote 설정을 자동으로 하나 안하나의 차이.
     - clone은 remote 설정을 자동으로 해주지만, pull의 경우 remote 설정 후 사용해야함
@@ -35,12 +36,13 @@
 8. 다음과 같은 상황이 나타났을 때 어떻게 해야 하나요?
    ![image](https://user-images.githubusercontent.com/98133984/181183354-df42d325-b839-48e1-a4c6-667c20b33d5c.png)
     - 답 : 원격저장소에는 있으나 로컬저장소에는 없는 파일로 인해 발생한 것이기에, 먼저 원격저장소를 pull한 후 다시 push한다.
-  
 
 9.  소유권이 없는 협업을 하기 위해서 가장 먼저 해야 할 것은 무엇일까요?
+    - 답 : 소유권이 없는 원격 저장소를 'fork'를 통해 내 원격 저장소로 복제한다.
+
 10. 소유권이 없는 협업의 경우, `git push origin master`로 원격 저장소에 변경사항을 반영할 수 있다.
-    - 답 : O/X
-    - 이유 :
+    - 답 : X
+    - 이유 : branch를 생성하여 작업을 진행하였기에 'git push origin branch명'으로 변경사항 반영해야한다.
  
 11. git reset 명령어의 옵션 중, staging area 상태로 돌아가는 옵션은 ______이다.
     - 답 : 
