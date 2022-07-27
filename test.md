@@ -53,12 +53,12 @@ fork를 통해 내 원격 저장소로 복제한다.
     - 이유 :pull Request를 통해 원본 원격 저장소의 master에 반영해달라는 요청을 보내야 한다.
  
 11. git reset 명령어의 옵션 중, staging area 상태로 돌아가는 옵션은 ______이다.
-    - 답 : 
+    - 답 : --soft
 
 12. 바로 직전 커밋을 수정하기 위해서 필요한 명령어를 작성하세요.
     - 답
     ```
-   
+    git commit --amend
     ```
 
 13. merge와 rebase의 차이점은 무엇일까요? 
